@@ -1,1 +1,1 @@
-print(Job will fail)
+print('Job will pass')
