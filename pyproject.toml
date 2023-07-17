@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bugswarm-client = "^2023.3.16"
+
+[tool.poetry.group.dev.dependencies]
+bugswarm-client = "^2023.3.16"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
